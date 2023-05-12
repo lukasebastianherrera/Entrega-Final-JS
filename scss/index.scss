@@ -1,0 +1,29 @@
+a {
+    /* Link a productos y  dar estilos */
+    text-decoration: none;
+    color: #212529;
+    &:hover {
+        color:$color-logo ;
+    }
+}
+
+.colchon-imagen {
+    /* centrar las imagenes */
+    display: grid;
+    place-items: center;
+    margin-bottom: 5%
+}
+
+.remove-bg {
+    /* Sacar el fondo blanco de imagenes (png jpg etc) */
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.borde{
+    /* Borde en Conoce mas productos (index) */
+    border: 3px solid black;
+    background-color: white;
+}
+.carousel-item{
+    background-color: rgb(235,235,235);
+}

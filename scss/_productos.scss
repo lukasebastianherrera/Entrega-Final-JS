@@ -1,0 +1,39 @@
+.colchones-titulo{
+    /* gradiante en  productos-colchones */
+    background: rgb(247,144,245);
+    background: linear-gradient(0deg, rgba(247,144,245,1) 0%, rgba(140,164,235,1) 100%);
+}
+
+.ventiladores-titulo{
+    /* gradiante titulo ventiladores (productos) */
+    background: rgb(8,31,159);
+    background: linear-gradient(0deg, rgba(8,31,159,1) 0%, rgba(148,148,214,1) 100%);
+}
+
+.muebles-titulo{
+    background: rgb(236,130,0);
+    background: linear-gradient(0deg, rgba(236,130,0,1) 0%, rgba(247,201,15,1) 100%);
+}
+
+div{
+    h2{ 
+        /* titulo de ofertas */
+        text-align: center;    
+        background: rgb(195,34,191);
+        background: linear-gradient(0deg, rgba(195,34,191,1) 0%, rgba(219,3,36,1) 100%);
+        margin: 10px 15px;
+    }
+    .oferta{
+        /* tachar oferta */
+        text-decoration: line-through;
+        margin-top: 5px;
+    }
+    a{
+        p{
+            /* estilos del texto adentro del link a productos */
+            position: absolute;
+            align-items: center;
+            font-size: 30px;
+        }
+    }
+}

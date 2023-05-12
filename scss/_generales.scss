@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+/* Reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    /* Fondo */
+    background-color: #F7B06D;
+    }
+    h1{  
+        /* Titulo centrado */
+        text-align: center;
+        background-color: $color-logo;
+        margin: 1%;
+        padding: 10px;
+}
+
+h2{   
+    /* centrar el h2 y darle color  */
+        text-align: center;
+        background-color: $color-logo;
+        margin: 1%;
+        padding: 6px;
+}
