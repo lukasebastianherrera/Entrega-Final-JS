@@ -89,202 +89,32 @@
       </div>
     </nav>
     <main>
-      <h1>Productos</h1>
-      <div>
-        <h2>OFERTAS <i class="fa-sharp fa-solid fa-pepper-hot"></i></h2>
-      </div>
       <div class="container-fluid">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col-xs-3 col-md6 col-lg-3">
-            <div class="card text-center">
-              <img src="../img/pileta-sol-de-verano-sol-100.jpg" class="card-img-top" alt="pileta-sol-de-verano">
-              <div class="card-body">
-              <h5 class="card-title">Pileta Sol de Verano</h5>
-              <p class="card-text oferta">$15.000</p>
-              <p class="card-text">$13.000</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-            </div>
+          <form id="formBuscar" class="centrar">
+              <input type="text" id="inputBuscar" value="">
+          </form>
+      <ul id="categorias">
+          <li><a href="#" class="btn" id="btnTodos">todos</a></li>
+          <li><a href="#" class="btn btnCategoria">muebles</a></li>
+          <li><a href="#" class="btn btnCategoria">colchones</a></li>
+          <li><a href="#" class="btn btnCategoria">piletas</a></li>
+          <li><a href="#" class="btn btnCategoria">ventiladores</a></li>
+      </ul>
+          <div id="productos" class="row">
+              <!--PRODUCTOS QUE TENGO EN LA BASE DE DATOS-->
           </div>
-          <div class="col-xs-3 col-md6 col-lg-3">
-            <div class="card text-center">
-              <img src="../img/pileta-sol-de-verano-max45.jpg" class="card-img-top" alt="pileta-sol-de-verano-max45">
-              <div class="card-body">
-              <h5 class="card-title">Pileta Sol de Verano MAX 45 5500LT</h5>
-              <p class="card-text oferta">$38.000</p>
-              <p class="card-text">$36.500</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-            </div>
-          </div>
-          <div class="col-xs-3 col-md6 col-lg-3">
-            <div class="card text-center">
-              <img src="../img/pileta-sol-de-verano-arco10.jpg" class="card-img-top" alt="pileta-sol-de-verano-circular-10">
-              <div class="card-body">
-              <h5 class="card-title">Pileta Sol de Verano ARCO10 5500LT</h5>
-              <p class="card-text oferta">$25.000</p>
-              <p class="card-text">$23.000</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-            </div>
-          </div>
-          <div class="col-xs-3 col-md6 col-lg-3">
-            <div class="card text-center">
-              <img src="../img/alacena-de-200-m-con-especiero.jpg" class="card-img-top" alt="alacena-de-200-m-con-especiero">
-              <div class="card-body">
-              <h5 class="card-title">Mueble Modular Vajillero Bahiut Pino Macizo De 1.60 M De Largo</h5>
-              <p class="card-text oferta">$14.000</p>
-              <p class="card-text">$12.000</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-            </div>
-          </div>
-        </div> 
       </div>
-      <div>
-        <h2 class="colchones-titulo">Colchones <i class="fa-solid fa-bed"></i></h2>
+  </main>
+  <section class="ocultar">
+      <div class="container mt-4">
+          <h1>Carrito (<span id="cantidadProductos"></span>)</h1>
+          <div id="carrito" class="row">
+              <!--ACA PONGO LOS PRODUCTOS EN EL CARRITO-->
+          </div>
+          <h3 class="centrar">total $<span id="totalCarrito">0</span></h3>
+          <a href="#" class="btn centrar" id="btnComprar">comprar</a>
       </div>
-      <div class="container-fluid">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col-xs-3 col-md6 col-lg-3">
-            <div class="card text-center">
-              <img src="../img/MCOL10010041.jpg" class="card-img-top" alt="colchon-piero-fluer-1-1/2-plaza">
-              <div class="card-body">
-              <h5 class="card-title">Colchon Piero Fleur 1 1/2 Plaza 100x190 Espuma</h5>
-              <p class="card-text">$25.000</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-            </div>
-          </div>
-          <div class="col-xs-3 col-md6 col-lg-3">
-            <div class="card text-center">
-              <img src="../img/COLCHON-GANI-RED-SPRING-PILLOW-080.jpg" class="card-img-top" alt="Colchón-1-Plaza-Resortes-Gani-Red-Spring-190-X-080">
-              <div class="card-body">
-              <h5 class="card-title">Colchón 1 Plaza Resortes Gani Red Spring 190 X 080</h5>
-              <p class="card-text">$58.000</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-            </div>
-          </div>
-          <div class="col-xs-3 col-md6 col-lg-3">
-            <div class="card text-center">
-              <img src="../img/colchon.piero.jpg" class="card-img-top" alt="Colchón-Piero-Continental-140×190-x-28-Resortes">
-              <div class="card-body">
-              <h5 class="card-title">Colchón Piero Continental 140×190 x 28 Resortes</h5>
-              <p class="card-text">$129.000</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-            </div>
-          </div>
-          <div class="col-xs-3 col-md6 col-lg-3">
-            <div class="card text-center">
-              <img src="../img/colchon-gani.png" class="card-img-top" alt="Colchon-Gani-Suavin-1-Pza-080-X-190-X-17-Cm-Espuma">
-              <div class="card-body">
-              <h5 class="card-title">Colchon Gani Suavin 1 Pza 080 X 190 X 17 Cm Espuma</h5>
-              <p class="card-text">$9.250</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-
-            </div>
-          </div>
-        </div> 
-      </div>
-      <div>
-        <h2 class="ventiladores-titulo">Ventiladores <i class="fa-solid fa-fan"></i></h2>
-      </div>
-      <div class="container-fluid">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col-xs-3 col-md6 col-lg-3">
-            <div class="card text-center">
-              <img src="../img/ventilador-de-mesa-liliana.jpg" class="card-img-top" alt="Ventilador De Mesa Liliana">
-              <div class="card-body">
-              <h5 class="card-title">Ventilador De Mesa Liliana Vsoc16 16" Aspas Transparentes</h5>
-              <p class="card-text">$19.999</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-            </div>
-          </div>
-          <div class="col-xs-3 col-md6 col-lg-3">
-            <div class="card text-center">
-              <img src="../img/ventilador-turbo-liliana.jpg" class="card-img-top" alt="Ventilador Turbo Liliana 20">
-              <div class="card-body">
-              <h5 class="card-title">Ventilador Turbo Liliana 20"</h5>
-              <p class="card-text">$18.750</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-            </div>
-          </div>
-          <div class="col-xs-3 col-md6 col-lg-3">
-            <div class="card text-center">
-              <img src="../img/ventilador.jpg" class="card-img-top" alt="Ventilador de Pie BONN 30">
-              <div class="card-body">
-              <h5 class="card-title">Ventilador de Pie BONN 30"</h5>
-              <p class="card-text">$74.999</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-            </div>
-          </div>
-          <div class="col-xs-3 col-md6 col-lg-3">
-            <div class="card text-center">
-              <img src="../img/ventilador-de-pared-liliana.jpg" class="card-img-top" alt="Ventilador De Pared Liliana 24">
-              <div class="card-body">
-              <h5 class="card-title">Ventilador De Pared Liliana 24"</h5>
-              <p class="card-text">$21.000</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-
-            </div>
-          </div>
-        </div> 
-      </div>
-      <div>
-        <h2 class="muebles-titulo">Muebles <i class="fa-solid fa-couch"></i></h2>
-      </div>
-      <div class="container-fluid">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col-xs-3 col-md6 col-lg-3">
-            <div class="card text-center">
-              <img src="../img/ropero-de-pino-puertas-abrir-80-cm-sin-espejo1-cafce3ad05e97d0f4116063132471796-640-0.jpg" class="card-img-top" alt="Ropero de Pino 80cm">
-              <div class="card-body">
-              <h5 class="card-title">Ropero de Pino 80cm</h5>
-              <p class="card-text">$32.000</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-            </div>
-          </div>
-          <div class="col-xs-3 col-md6 col-lg-3">
-            <div class="card text-center">
-              <img src="../img/ropero-160-pino.jpg" class="card-img-top" alt="Ropero 1,60M de Pino">
-              <div class="card-body">
-              <h5 class="card-title">Ropero 1,60M de Pino</h5>
-              <p class="card-text">$45.400</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-            </div>
-          </div>
-          <div class="col-xs-3 col-md6 col-lg-3">
-            <div class="card text-center">
-              <img src="../img/chifonier-1-puerta-pino.jpg" class="card-img-top" alt="Chifonier 1 puerta pino">
-              <div class="card-body">
-              <h5 class="card-title">Chifonier 1 puerta pino</h5>
-              <p class="card-text">$19.999</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-            </div>
-          </div>
-          <div class="col-xs-3 col-md6 col-lg-3 mb-5">
-            <div class="card text-center">
-              <img src="../img/biblioteca-de-pino.jpg" class="card-img-top" alt="Biblioteca de Pino">
-              <div class="card-body">
-              <h5 class="card-title">Biblioteca de Pino</h5>
-              <p class="card-text">$16.500</p>
-              <a href="../pages/carrito.html" class="btn btn-primary">Añadir al Carrito</a>
-            </div>
-            </div>
-          </div>
-        </div> 
-      </div>
-    </main>
+  </section>
     <footer>
       <div class="container-fluid">
         <div class="row p-2 bg-dark text-white">
@@ -321,5 +151,8 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../js/productos.js"></script>
   </body>
 </html>

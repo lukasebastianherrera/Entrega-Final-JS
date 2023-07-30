@@ -1,0 +1,119 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pileta Sol de Verano ARCO10 5500LT",
+        "precio": 23000,
+        "categoria": "piletas",
+        "imagen": "Pileta Sol de Verano ARCO10 5500LT.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Pileta Sol de Verano",
+        "precio": 13000,
+        "categoria": "piletas",
+        "imagen": "pileta sol de verano.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Pileta Sol de Verano MAX 45 5500LT",
+        "precio": 36500,
+        "categoria": "piletas",
+        "imagen": "Pileta Sol de Verano MAX 45 5500LT.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "biblioteca de pino",
+        "precio": 16500,
+        "categoria": "muebles",
+        "imagen": "biblioteca-de-pino.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Mueble Modular Vajillero Bahiut Pino Macizo De 1.60 M De Largo",
+        "precio": 12000,
+        "categoria": "muebles",
+        "imagen": "Mueble Modular Vajillero Bahiut Pino Macizo De 1.60 M De Largo.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Ropero de Pino 80cm",
+        "precio": 32000,
+        "categoria": "muebles",
+        "imagen": "Ropero de Pino 80cm.jpg"
+    }
+    ,
+    {
+        "id": 7,
+        "nombre": "Ropero 1,60M de Pino",
+        "precio": 45400,
+        "categoria": "muebles",
+        "imagen": "Ropero 1,60M de Pino.jpg"
+    }
+    ,
+    {
+        "id": 8,
+        "nombre": "Chifonier 1 puerta pino",
+        "precio": 19999,
+        "categoria": "muebles",
+        "imagen": "Chifonier 1 puerta pino.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Colchón Piero Continental 140×190 x 28 Resortes",
+        "precio": 129000,
+        "categoria": "colchones",
+        "imagen": "Colchón Piero Continental 140×190 x 28 Resortes.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Colchon Gani Suavin 1 Pza 080 X 190 X 17 Cm Espuma",
+        "precio": 129000,
+        "categoria": "colchones",
+        "imagen": "colchon.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Colchón 1 Plaza Resortes Gani Red Spring 190 X 080",
+        "precio": 129000,
+        "categoria": "colchones",
+        "imagen": "Colchón 1 Plaza Resortes Gani Red Spring 190 X 080.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Colchon Piero Fleur 1 12 Plaza 100x190 Espuma",
+        "precio": 129000,
+        "categoria": "colchones",
+        "imagen": "Colchon Piero Fleur 1 12 Plaza 100x190 Espuma.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Ventilador de Pie BONN 30",
+        "precio": 350,
+        "categoria": "ventiladores",
+        "imagen": "Ventilador de Pie BONN 30.jpg"
+    }
+    ,
+    {
+        "id": 14,
+        "nombre": "Ventilador De Mesa Liliana Vsoc16 16 Aspas Transparentes",
+        "precio": 350,
+        "categoria": "ventiladores",
+        "imagen": "Ventilador De Mesa Liliana Vsoc16 16 Aspas Transparentes"
+    }
+    ,
+    {
+        "id": 15,
+        "nombre": "Ventilador De Pared Liliana 24",
+        "precio": 350,
+        "categoria": "ventiladores",
+        "imagen": "Ventilador De Pared Liliana 24.jpg"
+    }
+    ,
+    {
+        "id": 16,
+        "nombre": "Ventilador Turbo Liliana 20",
+        "precio": 18750,
+        "categoria": "ventiladores",
+        "imagen": "Ventilador Turbo Liliana 20.jpg"
+    }
+]
