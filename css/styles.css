@@ -150,6 +150,10 @@ div a p {
   font-size: 30px;
 }
 
+.swal2-title {
+  background: white;
+}
+
 .producto {
   display: flex;
   flex-direction: row;
@@ -159,6 +163,8 @@ div a p {
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
+  background-color: white;
+  justify-content: center;
 }
 
 .centrar {
@@ -175,6 +181,8 @@ div a p {
   text-decoration: none;
   padding: 10px 30px;
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  text-align: center;
 }
 
 .oculto {
@@ -210,6 +218,17 @@ main {
 .ocultar {
   right: -340px;
   transition: all 0.2s;
+}
+
+.buscador {
+  margin: 15px 5px 0px;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 5px 5px 10px;
+}
+
+body {
+  background-color: #F7B06D;
 }
 
 /* Footer siempre abajo */
@@ -299,4 +318,8 @@ a:hover {
 
 .fondo-total_carrito {
   background-color: #4CAF50;
+}
+
+.blanco {
+  background: white;
 }/*# sourceMappingURL=styles.css.map */

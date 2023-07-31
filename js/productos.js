@@ -75,9 +75,9 @@ class Carrito{
         for (const producto of this.carrito){
             divCarrito.innerHTML += `
             <div class="producto">
-                <h2>${producto.nombre}</h2>
+                <h2 class="blanco">${producto.nombre}</h2>
                 <p>$${producto.precio}</p>
-                <p>Cantidad${producto.cantidad}</p>
+                <p>Cantidad: ${producto.cantidad}</p>
                 <a href="#" data-id="${producto.id}" class="btnQuitar">Quitar del carrito</a>
             </div>`
             this.total += (producto.precio * producto.cantidad);
@@ -152,7 +152,7 @@ function cargarProductos(productos){
         divProductos.innerHTML += `
         <div class="col-md-4">
         <div class="card mb-4">
-            <img src="img/${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
+            <img src="../img/${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
             <div class="card-body">
                 <h5 class="card-title">${producto.nombre}</h5>
                 <p class="card-text">$${producto.precio}</p>
